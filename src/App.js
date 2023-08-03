@@ -1,10 +1,14 @@
-import './App.css';
-import Hero from "./components/Hero"
+import "./App.css";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Mainfeatures from "./components/Mainfeatures";
 function App() {
   return (
     <>
-      <div className='app'>
+      <div className="app">
         <Hero />
+        <Mainfeatures />
+        <Footer />
       </div>
     </>
   );
