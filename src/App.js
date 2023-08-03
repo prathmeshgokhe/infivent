@@ -2,6 +2,8 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Mainfeatures from "./components/Mainfeatures";
+import "./App.css";
+import Visionmission from "./components/Visionmission";
 function App() {
   return (
     <>
@@ -9,6 +11,7 @@ function App() {
         <Hero />
         <Mainfeatures />
         <Footer />
+        <Visionmission />
       </div>
     </>
   );
