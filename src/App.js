@@ -4,14 +4,16 @@ import Hero from "./components/Hero";
 import Mainfeatures from "./components/Mainfeatures";
 import "./App.css";
 import Visionmission from "./components/Visionmission";
+import PowerFeature from "./components/PowerFeature";
 function App() {
   return (
     <>
       <div className="app">
         <Hero />
-        <Mainfeatures />
-        <Footer />
         <Visionmission />
+        <Mainfeatures />
+        <PowerFeature />
+        <Footer />
       </div>
     </>
   );
