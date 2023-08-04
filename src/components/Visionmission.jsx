@@ -8,7 +8,7 @@ const Visionmission = () => {
                 <div className='vision-info'>
                     <div className='vision-container'>
                         <div className='heading'>
-                            <h1>Vision</h1>
+                            <h1><span className='verticle-line' >|</span>Vision</h1>
                         </div>
                         <div className='info'>
                             <p>
@@ -20,7 +20,7 @@ const Visionmission = () => {
                 <div className='mission-info'>
                     <div className='mission-container'>
                         <div className='heading'>
-                            <h1>Mission</h1>
+                            <h1><span className='verticle-line' >|</span>Mission</h1>
                         </div>
                         <div className='info'>
                             <p>

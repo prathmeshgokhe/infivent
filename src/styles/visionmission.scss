@@ -16,6 +16,7 @@
             align-items: center;
             justify-content: center;
             .vision-container {
+                height: 50%;
                 width: 90%;
                 border: 2px solid white;
                 display: flex;
@@ -28,7 +29,13 @@
                     h1 {
                         font-family: "Montserrat", sans-serif;
                         font-size: 28px;
-                        color: white;
+                        background: -webkit-linear-gradient(45deg, #19fb9b, #8c01fa);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                        .verticle-line {
+                            padding-right: 10px;
+                        }
                     }
                 }
                 .info {
@@ -48,6 +55,7 @@
             align-items: center;
             justify-content: center;
             .mission-container {
+                height: 50%;
                 width: 90%;
                 border: 2px solid white;
                 display: flex;
@@ -56,11 +64,19 @@
                 padding: 40px;
                 .heading {
                     // border: 2px solid green;
+                    width: fit-content;
                     padding-bottom: 10px;
                     h1 {
                         font-family: "Montserrat", sans-serif;
                         font-size: 28px;
-                        color: white;
+                        background: -webkit-linear-gradient(45deg, #19fb9b, #8c01fa);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                        width: 100%;
+                        .verticle-line {
+                            padding-right: 10px;
+                        }
                     }
                 }
                 .info {
