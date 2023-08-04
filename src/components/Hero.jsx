@@ -1,10 +1,16 @@
 import React from 'react'
+import img1 from "../images/Infinity.png"
 import "../styles/hero.scss"
 
 const Hero = () => {
     return (
         <div className='hero'>
             <div className='logo'>
+                <img src={img1}
+                    height="20"
+                    width="40"
+
+                />
                 <h1>infivent</h1>
             </div>
             <div className='content'>
