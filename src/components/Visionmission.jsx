@@ -1,14 +1,25 @@
 import React from 'react'
 import "../styles/visionmission.scss"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Visionmission = () => {
+     useEffect(() => {
+    AOS.init()
+
+
+  }, [])
+
+
     return (
         <div className='main'>
             <div className='content'>
                 <div className='vision-info'>
-                    <div className='vision-container'>
+                    <div className='vision-container' data-aos="fade-right"
+        data-aos-delay="50">
                         <div className='heading'>
-                            <h1><span className='verticle-line' >|</span>Vision</h1>
+                            <h1>Vision</h1>
                         </div>
                         <div className='info'>
                             <p>
@@ -20,7 +31,7 @@ const Visionmission = () => {
                 <div className='mission-info'>
                     <div className='mission-container'>
                         <div className='heading'>
-                            <h1><span className='verticle-line' >|</span>Mission</h1>
+                            <h1>Mission</h1>
                         </div>
                         <div className='info'>
                             <p>
