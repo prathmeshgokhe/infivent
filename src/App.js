@@ -5,6 +5,8 @@ import Mainfeatures from "./components/Mainfeatures";
 import "./App.css";
 import Visionmission from "./components/Visionmission";
 import PowerFeature from "./components/PowerFeature";
+import COntactform from "./components/Contactform"
+import ContactForm from "./components/Contactform";
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
         <Visionmission />
         <Mainfeatures />
         <PowerFeature />
+        <ContactForm />
         <Footer />
       </div>
     </>
