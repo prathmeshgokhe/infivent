@@ -19,6 +19,7 @@ const Visionmission = () => {
                     <div className='vision-container' data-aos="fade-right"
         data-aos-delay="50">
                         <div className='heading'>
+                             <span>|</span>
                             <h1>Vision</h1>
                         </div>
                         <div className='info'>
@@ -28,9 +29,11 @@ const Visionmission = () => {
                         </div>
                     </div>
                 </div>
-                <div className='mission-info'>
+                <div className='mission-info' data-aos="fade-left"
+        data-aos-delay="50">
                     <div className='mission-container'>
                         <div className='heading'>
+                              <span>|</span>
                             <h1>Mission</h1>
                         </div>
                         <div className='info'>

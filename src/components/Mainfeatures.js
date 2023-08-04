@@ -1,8 +1,14 @@
 import React from "react";
 import "../styles/mainfeatures.scss";
 import { BsFillCaretDownFill } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Mainfeatures = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="mainfeatures-section">
       <div className="heading">
@@ -11,8 +17,10 @@ const Mainfeatures = () => {
       </div>
       <div className="section1">
         <div className="text-container">
-          <h3>Seamless Attendee Management</h3>
-          <p>
+          <h3 data-aos="flip-up" data-aos-delay="100">
+            Seamless Attendee Management
+          </h3>
+          <p data-aos="flip-up" data-aos-delay="100">
             Infivent offers a user-friendly registration process with dynamic
             forms and 2FA for enhanced security. Attendees can easily register,
             purchase tickets, and manage their profiles. With QR code entry and
@@ -25,9 +33,11 @@ const Mainfeatures = () => {
       <div className="section1">
         <div className="image-container"></div>
 
-        <div className="text-container">
-          <h3>AI-Powered Networking and Matchmaking</h3>
-          <p>
+        <div className="text-container ">
+          <h3 data-aos="flip-up" data-aos-delay="100">
+            AI-Powered Networking and Matchmaking
+          </h3>
+          <p data-aos="flip-up" data-aos-delay="100">
             Infivent's advanced AI-driven matchmaking algorithms enable
             meaningful connections and business opportunities between attendees,
             exhibitors, and sponsors. Through personalized meeting scheduling
@@ -38,8 +48,10 @@ const Mainfeatures = () => {
       </div>
       <div className="section1">
         <div className="text-container">
-          <h3>Real-time Analytics and Reporting</h3>
-          <p>
+          <h3 data-aos="flip-up" data-aos-delay="100">
+            Real-time Analytics and Reporting
+          </h3>
+          <p data-aos="flip-up" data-aos-delay="100">
             Stay informed and make data-driven decisions with Infivent's
             real-time event data and analytics dashboard. Gain valuable insights
             into attendee engagement, satisfaction, and exhibitor performance.
@@ -52,8 +64,10 @@ const Mainfeatures = () => {
       <div className="section1">
         <div className="image-container"></div>
         <div className="text-container">
-          <h3>Customizable Event Website and Mobile App</h3>
-          <p>
+          <h3 data-aos="flip-up" data-aos-delay="100">
+            Customizable Event Website and Mobile App
+          </h3>
+          <p data-aos="flip-up" data-aos-delay="100">
             Infivent empowers you to create a stunning event website with
             branding options that match your event's identity. Additionally, our
             mobile app for attendees provides easy access to event information,
