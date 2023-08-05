@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import "../styles/contactform.scss"
 import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function ContactForm() {
     const [formData, setFormData] = useState({
@@ -9,6 +13,8 @@ function ContactForm() {
         phoneNumber: '',
         message: '',
     });
+
+    const formRef = useRef(null);
 
     const handleInputChange = event => {
         const { name, value } = event.target;
@@ -25,16 +31,28 @@ function ContactForm() {
 
        
 
-            axios.post("http://localhost:5000/send_email", formData)
-            .then(()=> alert('Message sent successfully'))
+            axios.post("https://infivent-backend-cbb2lrj71-aneesh-b-design.vercel.app/send_email", formData)
+            .then(()=>{
+                toast.success('Message sent successfully', {
+                    position: "top-center",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                  });
+            }).then(()=> {formRef.current.reset()})
               
         }
     
 
     return (
+            <>
         <div className='contactform'>
 
-            <form onSubmit={handleSubmit} className='form'>
+            <form  ref={formRef} onSubmit={handleSubmit} className='form'>
                 <label>
                     {/* Name: */}
                     <input type="text" name="name" value={formData.name} onChange={handleInputChange} placeholder='Name' />
@@ -57,6 +75,9 @@ function ContactForm() {
                 <h2>Contact Us</h2>
             </div>
         </div>
+        <ToastContainer />
+        </>
+         
     );
 }
 
