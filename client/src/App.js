@@ -15,7 +15,7 @@ function App() {
         <Visionmission />
         <Mainfeatures />
         <PowerFeature />
-        {/* <ContactForm /> */}
+        <ContactForm />
         <Footer />
       </div>
     </>
