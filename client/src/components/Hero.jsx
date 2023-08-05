@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from "../images/Infinity.png"
 import "../styles/hero.scss"
 import { MouseParallax } from "react-just-parallax";
-import dashboard from "../images/dashboard1.png";
+import coverimg from "../images/Coverimg.png";
 const Hero = () => {
     return (
         <div className='hero'>
@@ -29,8 +29,8 @@ const Hero = () => {
                 </div>
                 <div className='image'>
                     <img
-                        src={dashboard}
-                        height="350"
+                        src={coverimg}
+                        height="450"
                         width="650"
                     />
 
