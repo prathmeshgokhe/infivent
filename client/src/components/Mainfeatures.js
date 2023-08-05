@@ -4,6 +4,10 @@ import { BsFillCaretDownFill } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import attendee from "../images/attendee.svg"
+import match from "../images/matchmaking.svg"
+import analytics from "../images/analytics.svg"
+import mobileapp from "../images/mobileapp.svg"
 
 const Mainfeatures = () => {
   useEffect(() => {
@@ -28,10 +32,22 @@ const Mainfeatures = () => {
             and professional experience for your valued attendees.
           </p>
         </div>
-        <div className="image-container"></div>
+        <div className="image-container">
+          <img
+            src={attendee}
+            height="450"
+            width="650"
+          />
+        </div>
       </div>
       <div className="section1">
-        <div className="image-container"></div>
+        <div className="image-container">
+          <img
+            src={match}
+            height="450"
+            width="450"
+          />
+        </div>
 
         <div className="text-container ">
           <h3 data-aos="flip-up" data-aos-delay="100">
@@ -59,10 +75,22 @@ const Mainfeatures = () => {
             improve your events and enhance future experiences.
           </p>
         </div>
-        <div className="image-container"></div>
+        <div className="image-container">
+          <img
+            src={analytics}
+            height="450"
+            width="450"
+          />
+        </div>
       </div>
       <div className="section1">
-        <div className="image-container"></div>
+        <div className="image-container">
+          <img
+            src={mobileapp}
+            height="450"
+            width="450"
+          />
+        </div>
         <div className="text-container">
           <h3 data-aos="flip-up" data-aos-delay="100">
             Customizable Event Website and Mobile App
