@@ -116,17 +116,29 @@
 }
 @media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
   .mainfeatures-section {
-    padding: 0 5em;
-
-    .section1 {
-      display: flex;
-      justify-content: center;
+    padding: 0 2em;
+    .heading {
       align-items: center;
+      padding: 4em 0 2em 0;
+
+      h2 {
+        font-size: 2rem;
+        background-clip: text;
+      }
+    }
+    .section1 {
+      // border: 1px solid red;
       gap: 20;
-      padding: 8em 0;
+      padding: 2em 0;
       flex-direction: column;
       .text-container {
         width: 100%;
+        h3 {
+          font-size: 1.5em;
+        }
+        p {
+          font-size: 12px;
+        }
       }
       .image-container {
         width: 100%;
