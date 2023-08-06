@@ -43,16 +43,20 @@
                 border-bottom: 1px solid white;
             }
         }
-        .message {
+        .messages {
             width: 100%;
+            border-bottom: 4px solid white;
             // height: 20vh;
             background-color: transparent;
             font-size: 15px;
             font-family: "Montserrat", sans-serif;
             color: white;
-            border-bottom: 1px solid white;
             border: none;
             outline: none;
+            resize: none;
+            input {
+                border-bottom: 4px solid white;
+            }
         }
         .submit {
             height: 40px;

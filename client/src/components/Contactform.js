@@ -69,7 +69,7 @@ function ContactForm() {
                     </label>
                     <label>
                         {/* Message: */}
-                        <textarea name="message" value={formData.message} onChange={handleInputChange} className='message' placeholder='Write your message here...' />
+                        <textarea name="message" value={formData.message} onChange={handleInputChange} className='messages' placeholder='Write your message here...' />
                     </label>
                     <button type="submit" className='submit'>Submit</button>
                 </form>

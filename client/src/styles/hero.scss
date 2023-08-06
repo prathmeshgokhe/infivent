@@ -5,6 +5,8 @@
     padding: 0 150px;
     font-family: "Montserrat", sans-serif;
     z-index: 0;
+    overflow: hidden;
+    position: relative;
     .bg-container {
         margin-top: -100px;
         position: absolute;
