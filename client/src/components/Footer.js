@@ -59,7 +59,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <hr />
-        <p>COPYRIGHT © 2022 — infivent</p>
+        <p>COPYRIGHT © 2023 — infivent</p>
       </div>
     </div>
   );
