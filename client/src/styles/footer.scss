@@ -1,6 +1,6 @@
 .footer-section {
   width: 100vw;
-
+  // border: 2px solid red;
   background-color: black;
   padding: 0 150px;
   font-family: "Montserrat", sans-serif;
@@ -9,72 +9,92 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  .signup-section {
+
+  // ---------------------Signup page --------------------------------
+  // .signup-section {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   .signup-text {
+  //     width: 80%;
+  //     h3 {
+  //       font-size: 1.7rem;
+  //       font-family: "Montserrat", sans-serif;
+  //       line-height: 1;
+  //       font-weight: 600;
+  //       margin-bottom: 0.5em;
+  //     }
+  //     p {
+  //       line-height: 2;
+  //       font-size: 14px;
+  //       font-weight: 500;
+  //       font-family: "Montserrat", sans-serif;
+  //     }
+  //   }
+  //   .signup-btn {
+  //     width: 20%;
+  //     display: flex;
+  //     justify-content: end;
+  //     button {
+  //       font-family: "Montserrat", sans-serif;
+  //       font-size: 12px;
+  //       width: fit-content;
+  //       background-color: #fafafa;
+  //       color: #070707;
+  //       padding: 10px 15px;
+  //       border-radius: 12px;
+
+  //       border: 1px solid #070707;
+  //       cursor: pointer;
+  //       transition: all 100ms ease-in;
+  //       background-color: #fafafa;
+
+  //       &:hover {
+  //         transition: all 200ms ease-in;
+  //         border: 1px solid #393939;
+  //         background-color: #393939;
+  //         color: #fafafa;
+  //       }
+  //     }
+  //   }
+  // }
+
+  // ---------------------------- Signup Page  end -----------------------
+  .footer {
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    .signup-text {
-      width: 80%;
-      h3 {
-        font-size: 1.7rem;
-        font-family: "Montserrat", sans-serif;
-        line-height: 1;
-        font-weight: 600;
-        margin-bottom: 0.5em;
-      }
-      p {
-        line-height: 2;
-        font-size: 14px;
-        font-weight: 500;
-        font-family: "Montserrat", sans-serif;
-      }
+    justify-content: center;
+    .logo {
+      border: 2px solid green;
+      width: 50%;
+      height: 250px;
     }
-    .signup-btn {
-      width: 20%;
+    .footer-list {
+      width: 50%;
       display: flex;
-      justify-content: end;
-      button {
-        font-family: "Montserrat", sans-serif;
-        font-size: 12px;
-        width: fit-content;
-        background-color: #fafafa;
-        color: #070707;
-        padding: 10px 15px;
-        border-radius: 12px;
+      justify-content: space-between;
+      // border: 2px solid yellow;
+      margin: 50px 0;
+      padding: 0 50px;
 
-        border: 1px solid #070707;
-        cursor: pointer;
-        transition: all 100ms ease-in;
-        background-color: #fafafa;
-
-        &:hover {
-          transition: all 200ms ease-in;
-          border: 1px solid #393939;
-          background-color: #393939;
-          color: #fafafa;
+      .list {
+        ul {
+          padding: 0;
+          li {
+            font-family: "Montserrat", sans-serif;
+            margin: 13px 0;
+            list-style: none;
+            font-size: 14px;
+          }
         }
       }
     }
   }
-  .footer-list {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
 
-    margin: 100px 0;
-    .list {
-      li {
-        font-family: "Montserrat", sans-serif;
-        margin: 13px 0;
-        list-style: none;
-        font-size: 14px;
-      }
-    }
-  }
   .copyright {
     width: 100%;
     text-align: center;
-
     p {
       padding: 5px 0;
       font-size: 10.5px;

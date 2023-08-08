@@ -43,6 +43,7 @@ const Header = () => {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  to='/Aboutus'
                 >
                   About us
                 </Link>
@@ -54,22 +55,29 @@ const Header = () => {
                     <Link
                       class="dropdown-item "
                       href="../IntraocularLenses.html"
+                      to="/Aboutus"
+
                     >
                       Leadership
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item " href="../Instruments.html">
-                      Mentor
-                    </Link>
+                    <HashLink to='mentor'>
+                      <Link class="dropdown-item " href="../Instruments.html">
+                        Mentor
+                      </Link>
+                    </HashLink>
                   </li>
                   <li>
-                    <Link
-                      class="dropdown-item "
-                      href="../RetinaInstruments.html"
-                    >
-                      About Procohat
-                    </Link>
+                    <HashLink to='#about-procohat'>
+                      <Link
+                        class="dropdown-item "
+                        href="../RetinaInstruments.html"
+                      >
+
+                        About Procohat
+                      </Link>
+                    </HashLink>
                   </li>
                 </ul>
               </li>
