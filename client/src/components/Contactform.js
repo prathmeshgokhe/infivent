@@ -51,7 +51,7 @@ function ContactForm() {
 
     return (
         <>
-            <div className='contactform'>
+            <div className='contactform' id='Contact'>
                 <div className='heading'>
                     <h2>Contact Us</h2>
                 </div>

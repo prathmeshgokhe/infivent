@@ -1,12 +1,12 @@
 import React from 'react'
-
+import { HashLink } from 'react-router-hash-link';
 import "../styles/hero.scss"
 import { MouseParallax } from "react-just-parallax";
 import coverimg from "../images/Coverimg.png";
 const Hero = () => {
     return (
         <div className='hero'>
-            
+
             <MouseParallax enableOnTouchDevice isAbsolutelyPositioned strength={0.2}>
                 <div className="bg-container" />
             </MouseParallax>
@@ -25,13 +25,13 @@ const Hero = () => {
                     </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in mollis nunc sed id semper risus in.</p>
                     <div className="signup-btn">
-                        <button>Get Started</button>
+                        <HashLink to='#Contact'><button>Get Started</button></HashLink>
                     </div>
                 </div>
                 <div className='image'>
                     <img
                         src={coverimg}
-                     
+
                     />
 
                 </div>

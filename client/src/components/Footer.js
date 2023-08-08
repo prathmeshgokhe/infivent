@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       </div> */}
       <div className="footer-list">
-        <div className="list">
+        {/* <div className="list">
           <h4>PRODUCTS</h4>
           <ul>
             <li>Download App</li>
@@ -26,7 +26,7 @@ const Footer = () => {
             <li>Case Studies</li>
             <li>API</li>
           </ul>
-        </div>
+        </div> */}
         <div className="list">
           <h4>COMPANY</h4>
           <ul>
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="list">
+        {/* <div className="list">
           <h4>ESSENTIALS</h4>
           <ul>
             <li>Documentation</li>
@@ -46,7 +46,7 @@ const Footer = () => {
             <li>Sandbox</li>
             <li>Source Code</li>
           </ul>
-        </div>
+        </div> */}
         <div className="list">
           <h4>GET IN TOUCH</h4>
           <ul>

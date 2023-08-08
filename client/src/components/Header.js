@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose, AiFillApple } from "react-icons/ai";
+import { HashLink } from 'react-router-hash-link';
+
 import logo from "../images/Infinity.png";
 import "../styles/header.scss";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -26,7 +28,13 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button> */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul className="navbar-nav mr-auto">
+              <li className="nav-item">
+                <Link className="nav-link " to="/">
+                  Home
+                </Link>
+              </li>
               <li class="nav-item   dropdown">
                 <Link
                   class="nav-link   listItemsStyle dropdown-toggle dropbtn"
@@ -66,9 +74,9 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="">
+                <HashLink className="nav-link" to="#Contact">
                   Request demo
-                </Link>
+                </HashLink>
               </li>
 
               <li className="nav-item">
