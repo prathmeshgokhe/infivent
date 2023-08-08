@@ -4,10 +4,10 @@ import { BsFillCaretDownFill } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import attendee from "../images/attendee.svg"
-import match from "../images/matchmaking.svg"
-import analytics from "../images/analytics.svg"
-import mobileapp from "../images/mobileapp.svg"
+import attendee from "../images/attendee.svg";
+import match from "../images/matchmaking.svg";
+import analytics from "../images/analytics.svg";
+import mobileapp from "../images/mobileapp.svg";
 
 const Mainfeatures = () => {
   useEffect(() => {
@@ -16,8 +16,8 @@ const Mainfeatures = () => {
   return (
     <div className="mainfeatures-section">
       <div className="heading">
-        <h2>Our Main Features</h2>
-        <BsFillCaretDownFill className="BsFillCaretDownFill" />
+        {/* <h2>Our Main Features</h2> */}
+        {/* <BsFillCaretDownFill className="BsFillCaretDownFill" /> */}
       </div>
       <div className="section1">
         <div className="text-container">
@@ -33,20 +33,20 @@ const Mainfeatures = () => {
           </p>
         </div>
         <div className="image-container">
-          <img
+          {/* <img
             src={attendee}
             height="450"
             width="650"
-          />
+          /> */}
         </div>
       </div>
       <div className="section1">
         <div className="image-container">
-          <img
+          {/* <img
             src={match}
             height="450"
             width="450"
-          />
+          /> */}
         </div>
 
         <div className="text-container ">
@@ -76,20 +76,20 @@ const Mainfeatures = () => {
           </p>
         </div>
         <div className="image-container">
-          <img
+          {/* <img
             src={analytics}
             height="450"
             width="450"
-          />
+          /> */}
         </div>
       </div>
       <div className="section1">
         <div className="image-container">
-          <img
+          {/* <img
             src={mobileapp}
             height="450"
             width="450"
-          />
+          /> */}
         </div>
         <div className="text-container">
           <h3 data-aos="flip-up" data-aos-delay="100">

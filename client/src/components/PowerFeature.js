@@ -17,10 +17,13 @@ import customer from "../images/customer.png";
 import onsite from "../images/onsite.png";
 import socialmedia from "../images/share.png";
 import customize from "../images/customize.png";
-
+import { MouseParallax } from "react-just-parallax";
 const PowerFeature = () => {
   return (
     <div className="feature-section">
+      <MouseParallax enableOnTouchDevice isAbsolutelyPositioned strength={0.2}>
+        <div className="bg-container" />
+      </MouseParallax>
       <div className="fetaures-title">
         <h2>Powerful Features to Enhance Your Expo Experience</h2>
         <p>

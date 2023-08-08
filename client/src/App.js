@@ -2,22 +2,21 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Mainfeatures from "./components/Mainfeatures";
-import "./App.css";
 import Visionmission from "./components/Visionmission";
 import PowerFeature from "./components/PowerFeature";
-import COntactform from "./components/Contactform";
 import ContactForm from "./components/Contactform";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage.js";
+import Solution from "./pages/Solution.js";
 function App() {
   return (
     <>
-      <div className="app">
-        <Hero />
-        <Visionmission />
-        <Mainfeatures />
-        <PowerFeature />
-        <ContactForm />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/solution" element={<Solution />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

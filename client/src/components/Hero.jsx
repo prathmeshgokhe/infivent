@@ -1,22 +1,23 @@
 import React from 'react'
-import img1 from "../images/Infinity.png"
+
 import "../styles/hero.scss"
 import { MouseParallax } from "react-just-parallax";
 import coverimg from "../images/Coverimg.png";
 const Hero = () => {
     return (
         <div className='hero'>
+            
             <MouseParallax enableOnTouchDevice isAbsolutelyPositioned strength={0.2}>
                 <div className="bg-container" />
             </MouseParallax>
-            <div className='logo'>
-                <img src={img1}
+            {/* <div className='logo'>
+                <img src={}
                     height="20"
                     width="40"
 
                 />
                 <h1>infivent</h1>
-            </div>
+            </div> */}
             <div className='content'>
                 <div className='text'>
                     <h1>
@@ -30,8 +31,7 @@ const Hero = () => {
                 <div className='image'>
                     <img
                         src={coverimg}
-                        height="450"
-                        width="650"
+                     
                     />
 
                 </div>
