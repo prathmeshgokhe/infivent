@@ -31,14 +31,14 @@ const Header = () => {
 
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link " to="/">
+                {/* <Link className="nav-link " to="/">
                   Home
-                </Link>
+                </Link> */}
               </li>
               <li class="nav-item   dropdown">
                 <Link
                   class="nav-link   listItemsStyle dropdown-toggle dropbtn"
-                  href="#"
+                  // href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -69,7 +69,7 @@ const Header = () => {
                     </HashLink>
                   </li>
                   <li>
-                    <HashLink to='#about-procohat'>
+                    <HashLink to='/#aboutus'>
                       <Link
                         class="dropdown-item "
                         href="../RetinaInstruments.html"
@@ -82,7 +82,7 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <HashLink className="nav-link" to="#Contact">
+                <HashLink className="nav-link" to="/#Contact">
                   Request demo
                 </HashLink>
               </li>

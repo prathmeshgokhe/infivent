@@ -13,11 +13,11 @@
     margin-top: -100px;
     position: absolute;
     transform: translate(-600px, -900px);
-    width: 1800px;
+    width: auto;
     height: 1800px;
     inset: 0;
     z-index: -1;
-    background: radial-gradient(rgb(0, 76, 255) 0%, rgba(185, 19, 135, 1) 20%, #070707 50%);
+    background: radial-gradient(rgb(0, 76, 255) 0%, rgba(185, 19, 135, 1) 20%, black 50%);
     opacity: 0.6;
   }
   .logo {
