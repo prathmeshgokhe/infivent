@@ -3,8 +3,10 @@ import "../styles/footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer-section">
-      {/* <div className="signup-section">
+    <>
+      <div className="footer-section">
+        <div className="footer-content">
+          {/* <div className="signup-section">
         <div className="signup-text">
           <h3>Sign Up and Start Chatting Today</h3>
           <p>
@@ -17,12 +19,10 @@ const Footer = () => {
           <button>Sign Up Now</button>
         </div>
       </div> */}
-      <div className="footer">
-        <div className="logo">
-
-        </div>
-        <div className="footer-list">
-          {/* <div className="list">
+          <div className="footer">
+            <div className="logo"></div>
+            <div className="footer-list">
+              {/* <div className="list">
           <h4>PRODUCTS</h4>
           <ul>
             <li>Download App</li>
@@ -31,18 +31,18 @@ const Footer = () => {
             <li>API</li>
           </ul>
         </div> */}
-          <div className="list">
-            <h4>QUICK LINKS</h4>
-            <ul>
-              <li>About Us</li>
-              <li>Contact</li>
-              <li>Privacy Policy</li>
-              <li>Terms of Service</li>
-              <li>Help</li>
-            </ul>
-          </div>
+              <div className="list">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                  <li>About Us</li>
+                  <li>Contact</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms of Service</li>
+                  <li>Help</li>
+                </ul>
+              </div>
 
-          {/* <div className="list">
+              {/* <div className="list">
           <h4>ESSENTIALS</h4>
           <ul>
             <li>Documentation</li>
@@ -51,22 +51,24 @@ const Footer = () => {
             <li>Source Code</li>
           </ul>
         </div> */}
-          <div className="list">
-            <h4>GET IN TOUCH</h4>
-            <ul>
-              <li>Twitter</li>
-              <li>Facebook</li>
+              <div className="list">
+                <h4>GET IN TOUCH</h4>
+                <ul>
+                  <li>Twitter</li>
+                  <li>Facebook</li>
 
-              <li>Dribbble</li>
-            </ul>
+                  <li>Dribbble</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="copyright">
+            <hr />
+            <p>COPYRIGHT © 2023 — infivent</p>
           </div>
         </div>
       </div>
-      <div className="copyright">
-        <hr />
-        <p>COPYRIGHT © 2023 — infivent</p>
-      </div>
-    </div>
+    </>
   );
 };
 

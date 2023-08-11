@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29367fed.css",
+    "main.js": "/static/js/main.996ce01e.js",
+    "static/js/787.acb11420.chunk.js": "/static/js/787.acb11420.chunk.js",
+    "static/media/Coverimg.png": "/static/media/Coverimg.296bc2fd8625cbd88968.png",
+    "static/media/Infinity.png": "/static/media/Infinity.702f5c4a80a1eb7f1a9f.png",
+    "static/media/bhanu.jpg": "/static/media/bhanu.7a6e97296fbee103d34d.jpg",
+    "static/media/sachin.jpg": "/static/media/sachin.285229049398cb85b628.jpg",
+    "static/media/matchmaking.svg": "/static/media/matchmaking.a45acca3e45bf7265c131a957a3c6820.svg",
+    "static/media/priti.jpg": "/static/media/priti.af2f7fd70c0c3db0af30.jpg",
+    "static/media/contact us.svg": "/static/media/contact us.de5d9e67af2eaa26a5fb5d9fd20eb035.svg",
+    "static/media/neerja.jpg": "/static/media/neerja.6498b8fbb55649f3607b.jpg",
+    "static/media/analytics.svg": "/static/media/analytics.fc73d4c5fcf32f6135d98788ac51af15.svg",
+    "static/media/attendee.svg": "/static/media/attendee.436fd5d5e4b6e67300e716600ae388e7.svg",
+    "static/media/mobileapp.svg": "/static/media/mobileapp.d652f13d3cd72c251560a6928a5309a4.svg",
+    "index.html": "/index.html",
+    "main.29367fed.css.map": "/static/css/main.29367fed.css.map",
+    "main.996ce01e.js.map": "/static/js/main.996ce01e.js.map",
+    "787.acb11420.chunk.js.map": "/static/js/787.acb11420.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29367fed.css",
+    "static/js/main.996ce01e.js"
+  ]
+}

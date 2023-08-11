@@ -1,18 +1,15 @@
-import React from 'react'
-import Layout from '../components/Layout'
-import ContactForm from "../components/Contactform";
-import Aboutuscontent from "../components/Aboutuscontent"
-import "../styles/aboutusmain.scss"
+import React from "react";
+
+import Layout from "../components/Layout";
+import About from "../components/About";
+import MentorTeam from "../components/MentorTeam";
 const Aboutus = () => {
-    return (
-        <div className='aboutusmain'>
+  return (
+    <Layout>
+      <About />
+      <MentorTeam />
+    </Layout>
+  );
+};
 
-            <Layout>
-                <Aboutuscontent />
-                <ContactForm />
-            </Layout>
-        </div>
-    )
-}
-
-export default Aboutus
+export default Aboutus;

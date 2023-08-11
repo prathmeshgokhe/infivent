@@ -1,14 +1,15 @@
 import React from "react";
-import Footer from "./Footer.js";
-import Header from "./Header.js";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div>
       <Header />
-      <main>{children}</main>
+      <main style={{ minHeight: "70vh" }}>{children}</main>
+
       <Footer />
-    </>
+    </div>
   );
 };
 
