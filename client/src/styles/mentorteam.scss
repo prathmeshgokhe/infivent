@@ -1,0 +1,110 @@
+.mentor-team-container {
+  width: full;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .mentor-team-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .team {
+      h1 {
+        text-align: center;
+      }
+      .grid-containter-team {
+        padding: 5em 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5em;
+        .team-card {
+          text-align: center;
+          img {
+            height: 15em;
+          }
+          h6 {
+            font-weight: 700;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2em;
+          }
+          p {
+            margin: 0;
+            padding: 0;
+            font-size: 0.8em !important;
+          }
+        }
+      }
+      .flex-team-members {
+        display: flex;
+        justify-content: center;
+        gap: 1.7em;
+        padding: 1em 0;
+
+        .member-card {
+          text-align: center;
+          img {
+            height: 8em;
+          }
+          h6 {
+            font-weight: 700;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2em;
+            font-size: 14px !important;
+          }
+          p {
+            margin: 0;
+            padding: 0;
+            font-size: 0.8em !important;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+    .mentor {
+      width: 100%;
+      padding: 8em 0;
+      h1 {
+        text-align: center;
+      }
+      .grid-container {
+        width: 100%;
+        padding-top: 5em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5em;
+        gap: 5em;
+        .mentor-card {
+          text-align: center;
+
+          img {
+            height: 15em;
+          }
+          h6 {
+            font-weight: 700;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2em;
+          }
+          p {
+            margin: 0;
+            padding: 0;
+            font-size: 0.8em !important;
+          }
+        }
+      }
+    }
+  }
+}
