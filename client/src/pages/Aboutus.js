@@ -6,7 +6,6 @@ import "../styles/aboutusmain.scss"
 const Aboutus = () => {
     return (
         <div className='aboutusmain'>
-
             <Layout>
                 <Aboutuscontent />
                 <ContactForm />

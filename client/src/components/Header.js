@@ -58,13 +58,13 @@ const Header = () => {
                       to="/Aboutus"
 
                     >
-                      Leadership
+                      About Procohat
                     </Link>
                   </li>
                   <li>
                     <HashLink to='mentor'>
                       <Link class="dropdown-item " href="../Instruments.html">
-                        Mentor
+                        Team Members
                       </Link>
                     </HashLink>
                   </li>
@@ -75,7 +75,7 @@ const Header = () => {
                         href="../RetinaInstruments.html"
                       >
 
-                        About Procohat
+                        Our Mentor's
                       </Link>
                     </HashLink>
                   </li>

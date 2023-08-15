@@ -20,10 +20,13 @@ const Hero = () => {
             </div> */}
             <div className='content'>
                 <div className='text'>
-                    <h1>
-                        Streamline, connect & elevate b2b events & expos!
-                    </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in mollis nunc sed id semper risus in.</p>
+                    <div className='heading'>
+                        <h1>
+                            Discover, Connect, Elevate.
+                        </h1>
+                        <h3>Your Gateway to B2B Expos</h3>
+                    </div>
+                    <p>Welcome to Infivents, where the world of B2B events and expos comes alive! We are your ultimate platform for connecting and elevating business events on a global scale. Whether you're an event organizer, exhibitor, or attendee, we've got you covered. Discover a world of opportunities as we bring together industry leaders, innovators, and decision-makers all in one place.</p>
                     <div className="signup-btn">
                         <HashLink to='#Contact'><button>Get Started</button></HashLink>
                     </div>

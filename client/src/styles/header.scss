@@ -1,9 +1,9 @@
 .navbarContainer {
   position: absolute;
   top: 0;
-  z-index: 999;
+  z-index: 2;
   width: 100vw;
-  padding: 0 150px;
+  padding: 0 100px;
   padding-top: 1em !important;
   .navbar-inner {
     display: flex;
